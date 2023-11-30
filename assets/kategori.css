@@ -1,0 +1,120 @@
+/* Tambahkan CSS tambahan untuk navigasi */
+.navbar {
+    background-color: #4EA8CF; /* Warna latar belakang navbar */
+  }
+  
+  .navbar-brand img {
+    height: 50px; /* Ukuran maksimum tinggi logo */
+  }
+  
+  .navbar-toggler {
+    border: none; /* Hapus border pada tombol toggler */
+  }
+  
+  .navbar-toggler-icon {
+    color: white; /* Warna ikon toggler */
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .navbar-nav {
+    text-align: center; /* Tengahkan teks menu */
+    margin-left: auto; /* Menggeser item menu ke kanan */
+  }
+  
+  .navbar-nav .nav-item {
+    padding: 10px; /* Ruang antara item menu */
+  }
+  
+  .navbar-nav .nav-link {
+    color: white !important; /* Warna teks menu */
+    font-weight: bold; /* Ketebalan teks menu */
+    transition: color 0.3s; /* Efek transisi warna teks */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff !important; /* Warna teks menu saat dihover */
+  }
+  
+  /* untuk padding bagian banner */
+  .banner {
+    padding: 20px;
+  }
+  
+  /* text diatas banner */
+  .text {
+    text-align: center; 
+    padding: 20px;
+  }
+  
+  /* warna text */
+  h4 {
+    color: white;
+  }
+  
+  .banner img {
+    width: 100%; /* lebar ukuran gambar banner */
+    height: 100%; /* panjang ukuran gambar banner */
+  }
+  
+  .konten {
+    background-color: #133385; /* warna background konten tengah */
+    height: 400px; /* panjang warna background */
+  }
+  
+  /* button */
+  .konten button {
+    padding: 20px;
+  }
+  
+  .btn{
+    display: flex; /* agar button tidak kebawah tapi kesamping */
+    padding: 20px;
+    width: 90%;
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #4E6ACF;  /* warna button */
+  }
+  
+  .btn1 {
+    padding: 20px;
+  }
+  
+  .footer {
+    padding: 20px 0;
+    background-image: url("../img/lapanganbolahd.png"); /* URL gambar */
+    background-repeat: no-repeat; /* Jangan mengulang gambar */
+    background-size: cover; /* Menutupi seluruh latar belakang */
+    background-position: center center; /* Posisikan gambar di tengah */
+    opacity: 0.6;
+  }
+  
+  .footer p {
+    margin-bottom: 5px;
+    font-weight: bold;
+    line-height: 1.2; /* Tinggi baris yang lebih baik */
+    text-align: left;
+    text-shadow: none;
+    color: white;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    text-decoration: underline;
+  }

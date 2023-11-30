@@ -1,0 +1,69 @@
+
+body {
+    font-family: Arial, Bold;
+    background-color: white;
+}
+
+/* mengatur gaya untuk kelas "image" */
+.image {
+    padding-top: 80px;
+}
+
+/* container sebagai backround kedua */
+.container {
+    max-width: 450px;
+    height: 290px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0056b3;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+/* bagian teks judul */
+h2 {
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* jarak setiap kotak di dalam container */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* bagian kotak username dan password di dalam container */
+.form-group input {
+    width: 80%;
+    padding: 15px;
+    border: 1px solid #5ACEFF;
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color: #5ACEFF;
+
+}
+
+/* agar berubah warna ketika di pencet */
+.form-group button:hover {
+    background-color: grey;
+}
+
+/* bagian kotak tombol login di dalam container */
+.form-group button {
+    display: block;
+    width: 40%;
+    padding: 13px;
+    margin-left: 135px;
+    background-color: #5ACEFF;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+/* teks bagian bawah */
+.footer {
+    padding-left: 30px; 
+}

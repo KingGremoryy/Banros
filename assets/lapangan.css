@@ -1,0 +1,87 @@
+/* Base styles for all devices */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #4EA8CF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping for smaller screens */
+    justify-content: center; /* Center items horizontally */
+    max-width: 1000px; /* Batasan lebar maksimum */
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.field-list {
+    list-style: none;
+    padding: 0;
+}
+
+.field-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    transition: transform 0.2s;
+    display: flex;
+    border-radius: 15px;
+    flex: 1; /* Make items expand to fill available space */
+}
+
+.field-item:hover {
+    transform: scale(1.02);
+}
+
+.field-item img {
+    max-width: 100%; /* Adjust image size to fit container */
+    height: auto;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.field-details {
+    flex: 1;
+}
+
+.field-details h2 {
+    font-style: normal;
+}
+
+.field-details p {
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+}
+
+/* Media queries for responsiveness */
+
+/* Adjust styles for screens smaller than 768px (e.g., smartphones) */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .field-item {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center;
+    }
+}
+
+/* Add horizontal scrolling for screens wider than 1000px (e.g., desktop) */
+@media (min-width: 1000px) {
+    .container {
+        overflow-x: auto; /* Enable horizontal scrolling */
+        white-space: nowrap; /* Prevent text from wrapping */
+    }
+}

@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 20px;
+}
+/* page sebagai halaman utama*/
+.page{
+ display: flex;
+ flex-direction: column;
+ height: calc(100% - 40px);
+ position: absolute;
+ place-content: center;
+ width: calc(100% - 40px);
+}
+
+/* sebagai bagian utama dari halaman sebelah kiri dan kanan` */
+.container{
+    display: flex;
+    height: 320px;
+    margin: 0 auto;
+    width: 640px;
+}
+/* untuk mengatur konten sebelah kiri */
+.content-left{
+    background-color: rgb(250, 245, 245);
+    height: calc(100% - 40px);
+    top: 20px;
+    position: relative;
+    width: 50%;
+    border-top-left-radius: 15px;
+    border-bottom: 15px;
+}
+
+/* mengatur gaya image logo */
+.image img{
+    width: 200px;
+    height: 80px;
+    padding: 10px;
+    margin: 20px, 20px, 20px;
+}
+
+/* mengatur text khusus h1 */
+h1 {
+    font-size: 15px;
+}
+
+/* mengatur text disebelah kiri */
+.text{
+    margin:  16px;
+    color: black;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* gaya button login dan sign up */
+.button {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+    border-radius: 15px;
+    background: #5ACEFF;
+    font-weight: bold;
+}
+
+/* mengatur hover tombol button */
+.form button:hover {
+    background-color: grey;
+}
+
+/* untuk mengatur konten sebelah kanan */
+.content-right{
+    background-color: #4E6ACF;
+    box-shadow: 0px,0px,40px,16px rgba(0, 0, 0, 0.22);
+    color: #f1f1f2;
+    position: relative;
+    width: 50%;
+    border-radius: 10px;
+}
+.form{
+  margin: 40px;  
+  top: 20px;
+  position: absolute;
+}
+
+/* responsive */
+@media(max-width: 767px)
+{
+    .content-left {
+        height: 24%;
+        left: 20px;
+        width: calc(100% - 40px);
+        max-height: 270px;
+        text-align: center;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 767px)
+{
+    .content-right {
+       flex-shrink: 0;
+        height: 100%;
+        width: 100%;
+        max-height: 350px;
+    }
+}
+@media(max-width: 767px)
+{
+    .container {
+       flex-direction: column;
+       height: 630px;
+       width: 320px;
+    }
+}

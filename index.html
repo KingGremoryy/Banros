@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/first.css">
+    <title>Banros | Halaman Utama</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/banrostrans.png" alt="Logo Banros">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Rekomendasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Lapangan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sign up</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sign in</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col-md-12 p-0">
+                <div class="image-container">
+                    <img src="img/banros.png" class="centered-image" alt="Lapangan Olahraga">
+                    <div class="search-box">
+                        <form class="input-group">
+                            <input type="text" class="form-control" placeholder="Cari tempat...">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="submit">Cari</button>
+                            </div>
+                        </form>
+                    <!-- <form method="POST" action="index.php">
+                                    <input type="text" name="search" placeholder="Cari tempat reservasi">
+                                    <input type="submit" value="Cari">
+                                </form> -->
+                                <!-- 
+                                ?> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid p-0" >
+            <div class="col-md-12 p-0">
+                    <h3 class="rekomendasi-title">Rekomendasi Tempat di Banjarmasin</h3>
+                </div>
+            </div>
+        </div>
+
+     <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/lapangan_badminton.png" alt="..." class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="img/lapangan olahraga.jpg" alt="..." class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="img/lapangan_basket.png" alt="..." class="d-block w-100">
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+  
+    <div class="button-container">
+        <button class="medium-button">Kategori Lapangan</button>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="right">Dengan situs web reservasi tempat olahraga kami, Anda dapat dengan mudah menemukan, memilih, dan memesan fasilitas olahraga yang Anda butuhkan untuk menjalani gaya hidup sehat dan aktif. Temukan berbagai pilihan lapangan tenis, lapangan sepak bola, kolam renang, dan fasilitas olahraga lainnya di sekitar Anda, serta nikmati kemudahan dalam membuat reservasi online. Jadikan setiap aktivitas olahraga Anda lebih terencana dan menyenangkan dengan layanan reservasi kami.<p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+<!-- Menghubungkan Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

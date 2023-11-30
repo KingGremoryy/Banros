@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Menyembunyikan overflow horizontal */
+  }
+  
+  /* Custom CSS untuk tampilan handphone */
+   @media (max-width: 767px) {
+    .image-container {
+      text-align: center;
+    }
+    .search-box {
+      margin-top: 20px;
+    }
+    .rekomendasi-title {
+      text-align: center;
+    }
+    .button-container {
+      text-align: center;
+    }
+    .carousel-inner img {
+      width: 25%; /* Agar gambar di dalam carousel responsif */
+      padding: 50px;
+    }
+    .footer p {
+      font-size: 10px; /* Ukuran font lebih kecil pada tampilan ponsel */
+      text-align: center; /* Pusatkan teks di tampilan ponsel */
+    }
+  }
+  
+  span {
+    background-color: black;
+  }
+  
+  /* CSS untuk container gambar */
+  .image-container {
+    position: relative;
+    text-align: center;
+    background-size: cover;
+  }
+  
+  /* CSS untuk gambar */
+  /* CSS untuk gambar */
+  .centered-image {
+    display: block;
+    margin: 0 auto;
+    width: 220vh;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    opacity: 0.8; /* Opacity (nilai dapat disesuaikan) */
+  }
+  
+  /* Membuat carousel menjadi berukuran sedang */
+  .carousel {
+    max-width: 900px; /* Atur lebar sesuai kebutuhan Anda */
+    margin: 0 auto; /* Menengahkan carousel secara horizontal */
+  }
+  
+  /* Atur tinggi carousel */
+  .carousel-inner img {
+    max-height: 400px; /* Atur tinggi sesuai kebutuhan Anda */
+    max-width: min-content;
+    margin: 0 auto; /* Menengahkan gambar dalam carousel secara horizontal */
+  }
+  
+  /* CSS untuk kotak pencarian */
+  .search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 5px #000000;
+  }
+  
+  .rekomendasi-title {
+    font-size: 20px; /* Ukuran font */
+    font-weight: bold; /* Tebal */
+    padding-top: 80px; /* Padding di atas elemen */
+    padding-bottom: 20px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  
+  .button-container {
+    text-align: center;
+  }
+  
+  .medium-button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .medium-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* CSS untuk tombol "Next" dan "Prev" di luar gambar */
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black;
+  }
+  
+  /* Tambahkan CSS tambahan untuk navigasi */
+  .navbar {
+    background-color: #5ACEFF; /* Warna latar belakang navbar */
+  }
+  
+  .navbar-brand img {
+    height: 50px; /* Ukuran maksimum tinggi logo */
+  }
+  
+  .navbar-toggler {
+    border: none; /* Hapus border pada tombol toggler */
+  }
+  
+  .navbar-toggler-icon {
+    color: white; /* Warna ikon toggler */
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .navbar-nav {
+    text-align: center; /* Tengahkan teks menu */
+    margin-left: auto; /* Menggeser item menu ke kanan */
+  }
+  
+  .navbar-nav .nav-item {
+    padding: 10px; /* Ruang antara item menu */
+  }
+  
+  .navbar-nav .nav-link {
+    color: white !important; /* Warna teks menu */
+    font-weight: bold; /* Ketebalan teks menu */
+    transition: color 0.3s; /* Efek transisi warna teks */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff !important; /* Warna teks menu saat dihover */
+  }
+  
+  /* CSS untuk footer */
+  .footer {
+    padding: 20px 0;
+    background-image: url("../img/lapanganbolahd.png"); /* URL gambar */
+    background-repeat: no-repeat; /* Jangan mengulang gambar */
+    background-size: cover; /* Menutupi seluruh latar belakang */
+    background-position: center center; /* Posisikan gambar di tengah */
+    opacity: 0.6;
+  }
+  
+  .footer p {
+    margin-bottom: 5px;
+    font-weight: bold;
+    line-height: 1.2; /* Tinggi baris yang lebih baik */
+    text-align: left;
+    text-shadow: none;
+    color: white;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    text-decoration: underline;
+  }
+  /* CSS untuk footer */
